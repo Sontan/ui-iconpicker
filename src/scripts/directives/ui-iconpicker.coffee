@@ -24,16 +24,7 @@
 umd = (root, factory) ->
 
 	# AMD
-	if typeof define is "function" and define.amd?
-		define("directives/ui-iconpicker", [
-			"angular"
-			"services/IconGroupCollection"
-			"templates/iconpicker"
-		], factory);
-
-	# Non-AMD
-	else
-		factory(root.angular);
+	factory(root.angular);
 
 umd this, (angular) ->
 
@@ -55,7 +46,7 @@ umd this, (angular) ->
 			link: ($scope, $element, attrs) ->
 				$scope.availableIconClasses = (new IconGroupCollection(attrs.groups)).getClassArray();
 				$scope.iconClass = attrs.value ? $scope.availableIconClasses[0];
-				
+
 				# setup two way bindings between $scope.iconClass and $scope.model
 				# when ng-model is found in the DOM attribute.
 				if attrs.ngModel

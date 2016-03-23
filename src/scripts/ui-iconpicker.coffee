@@ -22,17 +22,8 @@
 #
 
 umd = (root, factory) ->
-	
-	# AMD
-	if typeof define is "function" and define.amd?
-		define("ui-iconpicker", [
-			"angular"
-			"directives/ui-iconpicker"
-		], factory);
 
-	# Non-AMD
-	else
-		factory(root.angular);
+	factory(root.angular);
 
 umd this, (angular) ->
 
