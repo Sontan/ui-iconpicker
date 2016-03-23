@@ -23,7 +23,16 @@
 
 umd = (root, factory) ->
 
-	factory(root.angular);
+	# AMD
+	if typeof define is "function" and define.amd?
+		define("templates/iconpicker", [
+			"angular"
+			"angular-bootstrap"
+		], factory);
+
+	# Non-AMD
+	else
+		factory(root.angular);
 
 umd this, (angular) ->
 
