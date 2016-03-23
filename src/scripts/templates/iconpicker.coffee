@@ -48,7 +48,7 @@ umd this, (angular) ->
 			$templateCache.put "templates/iconpicker.html",
 				"""
 				<span class="btn-group ui-iconpicker" dropdown">
-					<button type="button" class="btn btn-default dropdown-toggle" dropdown-toggle ng-disabled="disabled">
+					<button type="button" class="btn btn-white dropdown-toggle" dropdown-toggle ng-disabled="disabled">
 					  <i ng-class="iconClass"></i><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
