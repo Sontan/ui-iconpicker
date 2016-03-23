@@ -1,7 +1,7 @@
 /**
  * ui-iconpicker
  *
- * @version   v0.1.4
+ * @version   v0.1.5
  * @author    Justin Lau <justin@tclau.com>
  * @copyright Copyright (c) 2014 Justin Lau <justin@tclau.com>
  * @license   The MIT License (MIT)
@@ -29,30 +29,15 @@
   background-color: #fff;
   border-color: #ccc;
 }
-.ui-iconpicker.brand-default > button:focus, .ui-iconpicker.brand-default > button.focus {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c;
-}
-.ui-iconpicker.brand-default > button:hover {
+.ui-iconpicker.brand-default > button:hover, .ui-iconpicker.brand-default > button:focus, .ui-iconpicker.brand-default > button:active, .ui-iconpicker.brand-default > button.active, .open > .ui-iconpicker.brand-default > button.dropdown-toggle {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
-}
-.ui-iconpicker.brand-default > button:active, .ui-iconpicker.brand-default > button.active, .open > .ui-iconpicker.brand-default > button.dropdown-toggle {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
-}
-.ui-iconpicker.brand-default > button:active:hover, .ui-iconpicker.brand-default > button:active:focus, .ui-iconpicker.brand-default > button:active.focus, .ui-iconpicker.brand-default > button.active:hover, .ui-iconpicker.brand-default > button.active:focus, .ui-iconpicker.brand-default > button.active.focus, .open > .ui-iconpicker.brand-default > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-default > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-default > button.dropdown-toggle.focus {
-  color: #333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
 }
 .ui-iconpicker.brand-default > button:active, .ui-iconpicker.brand-default > button.active, .open > .ui-iconpicker.brand-default > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-default > button.disabled:hover, .ui-iconpicker.brand-default > button.disabled:focus, .ui-iconpicker.brand-default > button.disabled.focus, .ui-iconpicker.brand-default > button[disabled]:hover, .ui-iconpicker.brand-default > button[disabled]:focus, .ui-iconpicker.brand-default > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-default > button:hover, fieldset[disabled] .ui-iconpicker.brand-default > button:focus, fieldset[disabled] .ui-iconpicker.brand-default > button.focus {
+.ui-iconpicker.brand-default > button.disabled, .ui-iconpicker.brand-default > button.disabled:hover, .ui-iconpicker.brand-default > button.disabled:focus, .ui-iconpicker.brand-default > button.disabled:active, .ui-iconpicker.brand-default > button.disabled.active, .ui-iconpicker.brand-default > button[disabled], .ui-iconpicker.brand-default > button[disabled]:hover, .ui-iconpicker.brand-default > button[disabled]:focus, .ui-iconpicker.brand-default > button[disabled]:active, .ui-iconpicker.brand-default > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-default > button, fieldset[disabled] .ui-iconpicker.brand-default > button:hover, fieldset[disabled] .ui-iconpicker.brand-default > button:focus, fieldset[disabled] .ui-iconpicker.brand-default > button:active, fieldset[disabled] .ui-iconpicker.brand-default > button.active {
   background-color: #fff;
   border-color: #ccc;
 }
@@ -62,38 +47,23 @@
 }
 .ui-iconpicker.brand-primary > button {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #428bca;
+  border-color: #357ebd;
 }
-.ui-iconpicker.brand-primary > button:focus, .ui-iconpicker.brand-primary > button.focus {
+.ui-iconpicker.brand-primary > button:hover, .ui-iconpicker.brand-primary > button:focus, .ui-iconpicker.brand-primary > button:active, .ui-iconpicker.brand-primary > button.active, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
-}
-.ui-iconpicker.brand-primary > button:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
-}
-.ui-iconpicker.brand-primary > button:active, .ui-iconpicker.brand-primary > button.active, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
-}
-.ui-iconpicker.brand-primary > button:active:hover, .ui-iconpicker.brand-primary > button:active:focus, .ui-iconpicker.brand-primary > button:active.focus, .ui-iconpicker.brand-primary > button.active:hover, .ui-iconpicker.brand-primary > button.active:focus, .ui-iconpicker.brand-primary > button.active.focus, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle.focus {
-  color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #3071a9;
+  border-color: #285e8e;
 }
 .ui-iconpicker.brand-primary > button:active, .ui-iconpicker.brand-primary > button.active, .open > .ui-iconpicker.brand-primary > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-primary > button.disabled:hover, .ui-iconpicker.brand-primary > button.disabled:focus, .ui-iconpicker.brand-primary > button.disabled.focus, .ui-iconpicker.brand-primary > button[disabled]:hover, .ui-iconpicker.brand-primary > button[disabled]:focus, .ui-iconpicker.brand-primary > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-primary > button:hover, fieldset[disabled] .ui-iconpicker.brand-primary > button:focus, fieldset[disabled] .ui-iconpicker.brand-primary > button.focus {
-  background-color: #337ab7;
-  border-color: #2e6da4;
+.ui-iconpicker.brand-primary > button.disabled, .ui-iconpicker.brand-primary > button.disabled:hover, .ui-iconpicker.brand-primary > button.disabled:focus, .ui-iconpicker.brand-primary > button.disabled:active, .ui-iconpicker.brand-primary > button.disabled.active, .ui-iconpicker.brand-primary > button[disabled], .ui-iconpicker.brand-primary > button[disabled]:hover, .ui-iconpicker.brand-primary > button[disabled]:focus, .ui-iconpicker.brand-primary > button[disabled]:active, .ui-iconpicker.brand-primary > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-primary > button, fieldset[disabled] .ui-iconpicker.brand-primary > button:hover, fieldset[disabled] .ui-iconpicker.brand-primary > button:focus, fieldset[disabled] .ui-iconpicker.brand-primary > button:active, fieldset[disabled] .ui-iconpicker.brand-primary > button.active {
+  background-color: #428bca;
+  border-color: #357ebd;
 }
 .ui-iconpicker.brand-primary > button .badge {
-  color: #337ab7;
+  color: #428bca;
   background-color: #fff;
 }
 .ui-iconpicker.brand-success > button {
@@ -101,30 +71,15 @@
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-.ui-iconpicker.brand-success > button:focus, .ui-iconpicker.brand-success > button.focus {
-  color: #fff;
-  background-color: #449d44;
-  border-color: #255625;
-}
-.ui-iconpicker.brand-success > button:hover {
+.ui-iconpicker.brand-success > button:hover, .ui-iconpicker.brand-success > button:focus, .ui-iconpicker.brand-success > button:active, .ui-iconpicker.brand-success > button.active, .open > .ui-iconpicker.brand-success > button.dropdown-toggle {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
-}
-.ui-iconpicker.brand-success > button:active, .ui-iconpicker.brand-success > button.active, .open > .ui-iconpicker.brand-success > button.dropdown-toggle {
-  color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
-}
-.ui-iconpicker.brand-success > button:active:hover, .ui-iconpicker.brand-success > button:active:focus, .ui-iconpicker.brand-success > button:active.focus, .ui-iconpicker.brand-success > button.active:hover, .ui-iconpicker.brand-success > button.active:focus, .ui-iconpicker.brand-success > button.active.focus, .open > .ui-iconpicker.brand-success > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-success > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-success > button.dropdown-toggle.focus {
-  color: #fff;
-  background-color: #398439;
-  border-color: #255625;
 }
 .ui-iconpicker.brand-success > button:active, .ui-iconpicker.brand-success > button.active, .open > .ui-iconpicker.brand-success > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-success > button.disabled:hover, .ui-iconpicker.brand-success > button.disabled:focus, .ui-iconpicker.brand-success > button.disabled.focus, .ui-iconpicker.brand-success > button[disabled]:hover, .ui-iconpicker.brand-success > button[disabled]:focus, .ui-iconpicker.brand-success > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-success > button:hover, fieldset[disabled] .ui-iconpicker.brand-success > button:focus, fieldset[disabled] .ui-iconpicker.brand-success > button.focus {
+.ui-iconpicker.brand-success > button.disabled, .ui-iconpicker.brand-success > button.disabled:hover, .ui-iconpicker.brand-success > button.disabled:focus, .ui-iconpicker.brand-success > button.disabled:active, .ui-iconpicker.brand-success > button.disabled.active, .ui-iconpicker.brand-success > button[disabled], .ui-iconpicker.brand-success > button[disabled]:hover, .ui-iconpicker.brand-success > button[disabled]:focus, .ui-iconpicker.brand-success > button[disabled]:active, .ui-iconpicker.brand-success > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-success > button, fieldset[disabled] .ui-iconpicker.brand-success > button:hover, fieldset[disabled] .ui-iconpicker.brand-success > button:focus, fieldset[disabled] .ui-iconpicker.brand-success > button:active, fieldset[disabled] .ui-iconpicker.brand-success > button.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
@@ -137,30 +92,15 @@
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-.ui-iconpicker.brand-info > button:focus, .ui-iconpicker.brand-info > button.focus {
-  color: #fff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
-}
-.ui-iconpicker.brand-info > button:hover {
+.ui-iconpicker.brand-info > button:hover, .ui-iconpicker.brand-info > button:focus, .ui-iconpicker.brand-info > button:active, .ui-iconpicker.brand-info > button.active, .open > .ui-iconpicker.brand-info > button.dropdown-toggle {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
-}
-.ui-iconpicker.brand-info > button:active, .ui-iconpicker.brand-info > button.active, .open > .ui-iconpicker.brand-info > button.dropdown-toggle {
-  color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
-}
-.ui-iconpicker.brand-info > button:active:hover, .ui-iconpicker.brand-info > button:active:focus, .ui-iconpicker.brand-info > button:active.focus, .ui-iconpicker.brand-info > button.active:hover, .ui-iconpicker.brand-info > button.active:focus, .ui-iconpicker.brand-info > button.active.focus, .open > .ui-iconpicker.brand-info > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-info > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-info > button.dropdown-toggle.focus {
-  color: #fff;
-  background-color: #269abc;
-  border-color: #1b6d85;
 }
 .ui-iconpicker.brand-info > button:active, .ui-iconpicker.brand-info > button.active, .open > .ui-iconpicker.brand-info > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-info > button.disabled:hover, .ui-iconpicker.brand-info > button.disabled:focus, .ui-iconpicker.brand-info > button.disabled.focus, .ui-iconpicker.brand-info > button[disabled]:hover, .ui-iconpicker.brand-info > button[disabled]:focus, .ui-iconpicker.brand-info > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-info > button:hover, fieldset[disabled] .ui-iconpicker.brand-info > button:focus, fieldset[disabled] .ui-iconpicker.brand-info > button.focus {
+.ui-iconpicker.brand-info > button.disabled, .ui-iconpicker.brand-info > button.disabled:hover, .ui-iconpicker.brand-info > button.disabled:focus, .ui-iconpicker.brand-info > button.disabled:active, .ui-iconpicker.brand-info > button.disabled.active, .ui-iconpicker.brand-info > button[disabled], .ui-iconpicker.brand-info > button[disabled]:hover, .ui-iconpicker.brand-info > button[disabled]:focus, .ui-iconpicker.brand-info > button[disabled]:active, .ui-iconpicker.brand-info > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-info > button, fieldset[disabled] .ui-iconpicker.brand-info > button:hover, fieldset[disabled] .ui-iconpicker.brand-info > button:focus, fieldset[disabled] .ui-iconpicker.brand-info > button:active, fieldset[disabled] .ui-iconpicker.brand-info > button.active {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
@@ -173,30 +113,15 @@
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-.ui-iconpicker.brand-warning > button:focus, .ui-iconpicker.brand-warning > button.focus {
-  color: #fff;
-  background-color: #ec971f;
-  border-color: #985f0d;
-}
-.ui-iconpicker.brand-warning > button:hover {
+.ui-iconpicker.brand-warning > button:hover, .ui-iconpicker.brand-warning > button:focus, .ui-iconpicker.brand-warning > button:active, .ui-iconpicker.brand-warning > button.active, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
-}
-.ui-iconpicker.brand-warning > button:active, .ui-iconpicker.brand-warning > button.active, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle {
-  color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
-}
-.ui-iconpicker.brand-warning > button:active:hover, .ui-iconpicker.brand-warning > button:active:focus, .ui-iconpicker.brand-warning > button:active.focus, .ui-iconpicker.brand-warning > button.active:hover, .ui-iconpicker.brand-warning > button.active:focus, .ui-iconpicker.brand-warning > button.active.focus, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle.focus {
-  color: #fff;
-  background-color: #d58512;
-  border-color: #985f0d;
 }
 .ui-iconpicker.brand-warning > button:active, .ui-iconpicker.brand-warning > button.active, .open > .ui-iconpicker.brand-warning > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-warning > button.disabled:hover, .ui-iconpicker.brand-warning > button.disabled:focus, .ui-iconpicker.brand-warning > button.disabled.focus, .ui-iconpicker.brand-warning > button[disabled]:hover, .ui-iconpicker.brand-warning > button[disabled]:focus, .ui-iconpicker.brand-warning > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-warning > button:hover, fieldset[disabled] .ui-iconpicker.brand-warning > button:focus, fieldset[disabled] .ui-iconpicker.brand-warning > button.focus {
+.ui-iconpicker.brand-warning > button.disabled, .ui-iconpicker.brand-warning > button.disabled:hover, .ui-iconpicker.brand-warning > button.disabled:focus, .ui-iconpicker.brand-warning > button.disabled:active, .ui-iconpicker.brand-warning > button.disabled.active, .ui-iconpicker.brand-warning > button[disabled], .ui-iconpicker.brand-warning > button[disabled]:hover, .ui-iconpicker.brand-warning > button[disabled]:focus, .ui-iconpicker.brand-warning > button[disabled]:active, .ui-iconpicker.brand-warning > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-warning > button, fieldset[disabled] .ui-iconpicker.brand-warning > button:hover, fieldset[disabled] .ui-iconpicker.brand-warning > button:focus, fieldset[disabled] .ui-iconpicker.brand-warning > button:active, fieldset[disabled] .ui-iconpicker.brand-warning > button.active {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
@@ -209,30 +134,15 @@
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-.ui-iconpicker.brand-danger > button:focus, .ui-iconpicker.brand-danger > button.focus {
-  color: #fff;
-  background-color: #c9302c;
-  border-color: #761c19;
-}
-.ui-iconpicker.brand-danger > button:hover {
+.ui-iconpicker.brand-danger > button:hover, .ui-iconpicker.brand-danger > button:focus, .ui-iconpicker.brand-danger > button:active, .ui-iconpicker.brand-danger > button.active, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle {
   color: #fff;
   background-color: #c9302c;
   border-color: #ac2925;
-}
-.ui-iconpicker.brand-danger > button:active, .ui-iconpicker.brand-danger > button.active, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle {
-  color: #fff;
-  background-color: #c9302c;
-  border-color: #ac2925;
-}
-.ui-iconpicker.brand-danger > button:active:hover, .ui-iconpicker.brand-danger > button:active:focus, .ui-iconpicker.brand-danger > button:active.focus, .ui-iconpicker.brand-danger > button.active:hover, .ui-iconpicker.brand-danger > button.active:focus, .ui-iconpicker.brand-danger > button.active.focus, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle:hover, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle:focus, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle.focus {
-  color: #fff;
-  background-color: #ac2925;
-  border-color: #761c19;
 }
 .ui-iconpicker.brand-danger > button:active, .ui-iconpicker.brand-danger > button.active, .open > .ui-iconpicker.brand-danger > button.dropdown-toggle {
   background-image: none;
 }
-.ui-iconpicker.brand-danger > button.disabled:hover, .ui-iconpicker.brand-danger > button.disabled:focus, .ui-iconpicker.brand-danger > button.disabled.focus, .ui-iconpicker.brand-danger > button[disabled]:hover, .ui-iconpicker.brand-danger > button[disabled]:focus, .ui-iconpicker.brand-danger > button[disabled].focus, fieldset[disabled] .ui-iconpicker.brand-danger > button:hover, fieldset[disabled] .ui-iconpicker.brand-danger > button:focus, fieldset[disabled] .ui-iconpicker.brand-danger > button.focus {
+.ui-iconpicker.brand-danger > button.disabled, .ui-iconpicker.brand-danger > button.disabled:hover, .ui-iconpicker.brand-danger > button.disabled:focus, .ui-iconpicker.brand-danger > button.disabled:active, .ui-iconpicker.brand-danger > button.disabled.active, .ui-iconpicker.brand-danger > button[disabled], .ui-iconpicker.brand-danger > button[disabled]:hover, .ui-iconpicker.brand-danger > button[disabled]:focus, .ui-iconpicker.brand-danger > button[disabled]:active, .ui-iconpicker.brand-danger > button[disabled].active, fieldset[disabled] .ui-iconpicker.brand-danger > button, fieldset[disabled] .ui-iconpicker.brand-danger > button:hover, fieldset[disabled] .ui-iconpicker.brand-danger > button:focus, fieldset[disabled] .ui-iconpicker.brand-danger > button:active, fieldset[disabled] .ui-iconpicker.brand-danger > button.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
