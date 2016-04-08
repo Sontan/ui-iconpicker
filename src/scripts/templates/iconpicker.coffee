@@ -47,12 +47,12 @@ umd this, (angular) ->
 		($templateCache) ->
 			$templateCache.put "templates/iconpicker.html",
 				"""
-				<div class="btn-group ui-iconpicker" dropdown>
-					<button type="button" class="btn btn-white dropdown-toggle" dropdown-toggle>
+				<div class="btn-group ui-iconpicker" uib-dropdown>
+					<button type="button" class="btn btn-white dropdown-toggle" uib-dropdown-toggle>
 					  <i ng-class="iconClass"></i><span class="caret"></span>
 					</button>
-					<ul class="dropdown-menu" role="menu">
-						<li ng-repeat="class in availableIconClasses track by $index">
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu">
+						<li role="menuitem" ng-repeat="class in availableIconClasses track by $index">
 							<button class="btn btn-white" type="button" ng-click="$parent.iconClass = class"><span ng-class="class"></span></button>
 						</li>
 					</ul>
