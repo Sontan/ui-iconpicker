@@ -49,7 +49,7 @@ umd this, (angular) ->
 				"""
 				<div class="btn-group ui-iconpicker" uib-dropdown>
 					<button type="button" class="btn btn-white dropdown-toggle" uib-dropdown-toggle>
-					  <i ng-class="iconClass"></i><span class="caret"></span>
+					  <i class="{{iconClass}}"></i><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" uib-dropdown-menu role="menu">
 						<li role="menuitem" ng-repeat="class in availableIconClasses track by $index">
