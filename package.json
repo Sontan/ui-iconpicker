@@ -25,6 +25,14 @@
   "engines": {
     "node": ">=0.10.25"
   },
+  "main": [
+    "./dist/scripts/ui-iconpicker.js",
+    "./dist/styles/ui-iconpicker.css"
+  ],
+  "dependencies": {
+    "angular": "^1.2.16",
+    "angular-bootstrap": "^0.10.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-bump": "git://github.com/gruntjs/grunt-contrib-bump",
