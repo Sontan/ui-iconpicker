@@ -142,7 +142,7 @@
 
   umd = function(root, factory) {
     if (typeof define === "function" && (define.amd != null)) {
-      return define("templates/iconpicker", ["angular", "angular-bootstrap"], factory);
+      return define("templates/iconpicker", ["angular", "angular-ui-bootstrap"], factory);
     } else {
       return factory(root.angular);
     }
