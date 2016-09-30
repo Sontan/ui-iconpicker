@@ -1,7 +1,7 @@
 {
   "name": "ui-iconpicker",
   "description": "Bootstrap 3 Icon Picker for AngularJS",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "keywords": [
     "Bootstrap",
     "Font Awesome",
@@ -28,7 +28,7 @@
   "main": "dist/scripts/ui-iconpicker.js",
   "dependencies": {
     "angular": "^1.2.16",
-    "angular-bootstrap": "^0.10.0"
+    "angular-bootstrap": "^0.12.2"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
