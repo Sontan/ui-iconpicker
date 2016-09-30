@@ -25,8 +25,8 @@ require.config
 
 	paths:
 		"angular"           : "empty:"
-		"angular-bootstrap" : "empty:"
+		"angular-ui-bootstrap" : "empty:"
 
 	shim:
-		"angular-bootstrap":
+		"angular-ui-bootstrap":
 			deps: ["angular"]
