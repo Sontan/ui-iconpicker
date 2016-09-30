@@ -25,10 +25,7 @@
   "engines": {
     "node": ">=0.10.25"
   },
-  "main": [
-    "./dist/scripts/ui-iconpicker.js",
-    "./dist/styles/ui-iconpicker.css"
-  ],
+  "main": "dist/scripts/ui-iconpicker.js",
   "dependencies": {
     "angular": "^1.2.16",
     "angular-bootstrap": "^0.10.0"
