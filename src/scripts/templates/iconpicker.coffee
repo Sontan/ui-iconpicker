@@ -51,11 +51,11 @@ umd this, (angular) ->
 					<button type="button" class="btn btn-default dropdown-toggle" uib-dropdown-toggle><i class="{{ iconClass }}"></i><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" uib-dropdown-menu role="menu">
-						<li ng-repeat="class in availableIconClasses">
+						<li ng-repeat="class in availableIconClasses track by $index">
 							<button class="btn btn-default" type="button" ng-click="$parent.iconClass = class"><span class="{{ class }}"></span></button>
 						</li>
 					</ul>
 					<input name="{{ name }}" type="hidden" value="{{ iconClass }}" ng-if="name" />
-				</span>
+				</div>
 				"""
 	]

@@ -1,12 +1,13 @@
 {
   "name": "ui-iconpicker",
   "description": "Bootstrap 3 Icon Picker for AngularJS",
-  "version": "0.1.4",
+  "version": "0.1.17",
   "keywords": [
     "Bootstrap",
     "Font Awesome",
     "Iconpicker",
-    "AngularJS"
+    "AngularJS",
+    "Ionicons"
   ],
   "license": "MIT",
   "authors": [
@@ -16,9 +17,13 @@
       "homepage": "http://tclau.com"
     }
   ],
+  "main": [
+    "dist/styles/ui-iconpicker.css",
+    "dist/scripts/ui-iconpicker.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/justin-lau/ui-iconpicker"
+    "url": "https://github.com/fers490/ui-iconpicker"
   },
   "dependencies": {
     "angular": "~1.2.16",
@@ -26,7 +31,11 @@
   },
   "devDependencies": {
     "bootstrap-sass": "twbs/bootstrap-sass#~3.1.1",
-    "font-awesome": "~4.0.3"
+    "font-awesome": "~4.0.3",
+    "Ionicons": "ionicons#~2.0.1"
+  },
+  "resolutions": {
+    "angular": ">=1.4.0"
   },
   "main": [
     "./dist/scripts/ui-iconpicker.js",

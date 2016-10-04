@@ -21,9 +21,10 @@
  * SOFTWARE.
  */
 
-@import "../components/bootstrap-sass/vendor/assets/stylesheets/bootstrap/variables";
-@import "../components/bootstrap-sass/vendor/assets/stylesheets/bootstrap/mixins";
-@import "../components/font-awesome/scss/variables";
+@import "../components/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables";
+@import "../components/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_mixins";
+@import "../components/font-awesome/scss/_variables";
+@import "../components/Ionicons/scss/_ionicons-variables";
 
 $iconpicker-dropdown-menu-padding-h: 0.5em !default;
 $iconpicker-dropdown-menu-padding-v: $iconpicker-dropdown-menu-padding-h !default;
